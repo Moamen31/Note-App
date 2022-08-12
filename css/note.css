@@ -234,7 +234,7 @@ body {
 }
 
 .confirm-wrapper {
-  position: absolute;
+  position: fixed;
   background-color: hsl(0deg 0% 87% / 50%);
   width: 100%;
   height: 100%;
