@@ -326,6 +326,6 @@ body {
   border: 2px solid #f44336;
 }
 .confirm-del .cancel {
-  background-color: darksalmon;
+  background-color: #f44336;
   color: white;
 }
