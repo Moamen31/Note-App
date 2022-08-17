@@ -170,14 +170,14 @@ submitBtn.addEventListener("click", ((e) => {
             amOrPm : hour > 12 ? `${pm}` : `${am}`,
         }
 
-        if (!isUpdated) { //if isupdated is true
+        if (!isUpdated) { //if isupdated is false
             // console.log(isUpdated)
             // console.log(!isUpdated)
             //push the new object to the array if there are no notes in the local storage
             notesArrayOrObject.push(noteObject)
             //console.log(notesArrayOrObject)
         }
-        else {  //if isupdated is false.. if i made an update to a note
+        else {  //if isupdated is true.. if i made an update to a note
             //console.log(updateIndex)
             notesArrayOrObject[updateIndex] = noteObject
         }
